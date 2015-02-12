@@ -6,7 +6,7 @@ JavaScript module that provides random strings and numbers.
 
 The current published version:
 
-```
+```sh
 npm install git+https://github.com/matthewkastor/atropa-random.git#master
 ```
 
@@ -20,7 +20,7 @@ Source code available at: [https://github.com/matthewkastor/atropa-random/](http
 
 In node:
 
-```
+```javascript
 var random = require('atropa-random').random;
 console.log(random);
 ```
@@ -54,7 +54,7 @@ There are several scripts listed in package.json for development and
  scripts property corresponding to the script you want to run. For example,
  given a script called `buildDocs`, it could be run from the package root by:
 
-```
+```sh
 npm run-script buildDocs
 ```
 

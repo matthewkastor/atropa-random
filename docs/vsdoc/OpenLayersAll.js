@@ -25,10 +25,14 @@
     
 
     window.atropa = {
-        /// <summary></summary>
-        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
-        /// <field name="random" type="">Provides random strings and numbers.</field>
+        /// <summary>Container for all Glorious classes, functions, etc.</summary>
         /// <returns type="atropa"/>
+      
+        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        data : {}, 
+      
+        /// <field name="random" type="">Provides random strings and numbers.</field>
+        random : {}, 
                 
         supportCheck: function(className, errorMessage) {
             /// <summary>Checks whether this class has been marked as unsupported and throws an 
@@ -69,7 +73,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.data = {
-        /// <summary></summary>
+        /// <summary>Container for gobal data related to the classes and functions.</summary>
         /// <returns type="atropa.data"/>
                 
     };
@@ -88,7 +92,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.random = {
-        /// <summary></summary>
+        /// <summary>Provides random strings and numbers.</summary>
         /// <returns type="atropa.random"/>
                 
         string: function(stringLength, characterClass) {
